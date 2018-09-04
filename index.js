@@ -5,7 +5,7 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 function theBeatlesPlay(musicians,instruments) {
   let newArray = [];
   
-  for(i=0; i < musicians.length; ++i){
+  for(let i=0; i < musicians.length; ++i){
       newArray.push(musicians[i] + ' plays ' + instrument[i]);
   }
   return newArray;
