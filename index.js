@@ -30,7 +30,7 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   let bin = [];
-  var i=0
+  var i=-1
   if(num<15){
   do{
     bin.push('I love the Beatles!')
