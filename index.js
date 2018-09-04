@@ -28,8 +28,14 @@ function johnLennonFacts(facts){
   return shoutArray;
 }
 
-function iLoveTheBeatles(){
-  
-  
-  
+function iLoveTheBeatles(num){
+  let bin = [];
+  var i=0
+  if(num<15){
+  do{
+    bin.push('I love the Beatles!')
+    i++
+  } while (i<num)
+  }
+  return bin;
 }
