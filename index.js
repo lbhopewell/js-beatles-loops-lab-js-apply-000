@@ -3,5 +3,7 @@ const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo St
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 function theBeatlesPlay(musicians,instruments) {
-  var matches []
+  let matches = [];
+  
+  for(i=0)
 }
