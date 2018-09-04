@@ -5,5 +5,7 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 function theBeatlesPlay(musicians,instruments) {
   let matches = [];
   
-  for(i=0; i < musicians.length; )
+  for(i=0; i < musicians.length; ++i){
+    
+  }
 }
