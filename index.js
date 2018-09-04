@@ -36,6 +36,8 @@ function iLoveTheBeatles(num){
     bin.push('I love the Beatles!')
     i++
   } while (i<num)
+  }else {
+    bin.push('I love the Beatles!')
   }
   return bin;
 }
